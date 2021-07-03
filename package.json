@@ -1,0 +1,33 @@
+{
+  "name": "lesny_dom_studio_jogi",
+  "version": "1.0.0",
+  "description": "This an e-commerce website with built in shop,blog and booking system for yoga studio",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruss87/yoga_studio.git"
+  },
+  "author": "Karolina K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruss87/yoga_studio/issues"
+  },
+  "homepage": "https://github.com/Bruss87/yoga_studio#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.1",
+    "nodemon": "^2.0.9",
+    "validator": "^13.6.0"
+  }
+}
